@@ -86,7 +86,7 @@ namespace MinecraftServerConsole
             }
             catch (Exception ex)
             {
-                try {process.Kill();} catch {}
+                try { process.Kill(); } catch {}
                 Dispatcher.Invoke(() => outputBox.AppendText($"错误: {ex.Message}\n"));
             }
             process.Close();
