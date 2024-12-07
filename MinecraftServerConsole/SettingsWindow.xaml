@@ -1,0 +1,22 @@
+﻿<mah:MetroWindow x:Class="MinecraftServerConsole.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Title="oodzfa开服器设置"
+        Width="600"
+        Height="150"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        mc:Ignorable="d" Closed="MetroWindow_Closed">
+    <Grid>
+        <Label Content="java路径:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="javaBox" Margin="95,10,54,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="javaButton" Content="选择" Margin="0,10,10,0" VerticalAlignment="Top" Style="{DynamicResource MahApps.Styles.Button.Flat}" Height="26" FontSize="12" HorizontalAlignment="Right" Click="javaButton_Click"/>
+        <Label Content="服务端文件名:" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="fileBox" Margin="95,40,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Label Content="内存分配:" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="memBox" Margin="95,70,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+    </Grid>
+</mah:MetroWindow>
