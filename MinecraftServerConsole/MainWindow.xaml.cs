@@ -9,6 +9,9 @@ using System.Windows.Threading;
 
 namespace MinecraftServerConsole
 {
+    /// <summary>
+    /// MainWindow.xaml 的交互逻辑
+    /// </summary>
     public partial class MainWindow : MetroWindow
     {
         SettingsWindow settingsWindow;
