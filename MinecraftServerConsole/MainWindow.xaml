@@ -17,6 +17,6 @@
         <TextBox x:Name="outputBox" Margin="10,43,10,41" TextWrapping="Wrap" IsReadOnly="True"/>
         <TextBox x:Name="inputBox" Margin="10,0,58,10" TextWrapping="Wrap" Height="26" VerticalAlignment="Bottom"/>
         <Button x:Name="execButton" Content="执行" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Style="{DynamicResource MahApps.Styles.Button.Flat}" Height="26" Click="execButton_Click" IsEnabled="False"/>
-        <Button x:Name="settingsButton" Content="设置" HorizontalAlignment="Left" Margin="742,10,0,0" VerticalAlignment="Top" Style="{DynamicResource MahApps.Styles.Button.Flat}" Click="settingsButton_Click"/>
+        <Button x:Name="settingsButton" Content="设置" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Style="{DynamicResource MahApps.Styles.Button.Flat}" Click="settingsButton_Click"/>
     </Grid>
 </mah:MetroWindow>
