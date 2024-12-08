@@ -12,7 +12,7 @@ namespace MinecraftServerConsole
     public partial class MainWindow : MetroWindow
     {
         SettingsWindow settingsWindow;
-        private Process process = new Process();
+        private readonly Process process = new Process();
 
         public MainWindow()
         {

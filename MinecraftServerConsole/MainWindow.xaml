@@ -14,7 +14,7 @@
     <Grid>
         <Button x:Name="startButton" Content="启动" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Style="{DynamicResource MahApps.Styles.Button.Flat}" Click="startButton_Click"/>
         <Button x:Name="stopButton" Content="关闭" HorizontalAlignment="Left" Margin="63,10,0,0" VerticalAlignment="Top" Style="{DynamicResource MahApps.Styles.Button.Flat}" IsEnabled="False" Click="stopButton_Click"/>
-        <TextBox x:Name="outputBox" Margin="10,43,10,41" TextWrapping="Wrap" IsReadOnly="True"/>
+        <TextBox x:Name="outputBox" Margin="10,43,10,41" IsReadOnly="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"/>
         <TextBox x:Name="inputBox" Margin="10,0,58,10" TextWrapping="Wrap" Height="26" VerticalAlignment="Bottom"/>
         <Button x:Name="execButton" Content="执行" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Style="{DynamicResource MahApps.Styles.Button.Flat}" Height="26" Click="execButton_Click" IsEnabled="False"/>
         <Button x:Name="settingsButton" Content="设置" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Style="{DynamicResource MahApps.Styles.Button.Flat}" Click="settingsButton_Click"/>
