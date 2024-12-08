@@ -9,6 +9,9 @@ using System.Windows.Threading;
 
 namespace MinecraftServerConsole
 {
+    /// <summary>
+    /// MainWindow.xaml 的交互逻辑
+    /// </summary>
     public partial class MainWindow : MetroWindow
     {
         SettingsWindow settingsWindow;
@@ -83,7 +86,7 @@ namespace MinecraftServerConsole
             }
             catch (Exception ex)
             {
-                try {process.Kill();} catch {}
+                try { process.Kill(); } catch {}
                 Dispatcher.Invoke(() => outputBox.AppendText($"错误: {ex.Message}\n"));
             }
             process.Close();
