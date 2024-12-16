@@ -1,6 +1,6 @@
 {
   "name": "MinecraftServerConsole",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "oodzfa server manager",
   "main": "main.js",
   "scripts": {
