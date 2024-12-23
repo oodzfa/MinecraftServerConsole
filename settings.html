@@ -7,8 +7,12 @@
     content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
-
   <title>oodzfa开服器设置</title>
+  <style>
+    * {
+      border-radius: 0px !important;
+    }
+  </style>
 </head>
 
 <body>
@@ -20,12 +24,12 @@
       <a class="nav-link active" href="#"><i class="bi bi-gear-fill"></i> 设置</a>
     </li>
   </ul>
-  <div class="container-fluid mt-1">
+  <div style="padding: 4px;">
     <div class="input-group input-group-sm mb-1">
       <div class="input-group-prepend">
         <span class="input-group-text" style="width: 74px;">java路径</span>
       </div>
-      <input id="javaPathBox" class="form-control" placeholder="例如: /usr/bin/java">
+      <input id="javaPathBox" class="form-control" placeholder="例如: /path/to/java.exe">
       <div class="input-group-append">
         <button class="btn btn-primary" id="selectJavaButton"><i class="bi bi-folder-symlink-fill"></i> 选择</button>
       </div>
@@ -51,7 +55,7 @@
       </div>
       <input id="stopCommandBox" class="form-control" placeholder="例如: stop">
     </div>
-    <div class="mb-1">
+    <div class="btn-group btn-group-sm">
       <button id="saveButton" class="btn btn-sm btn-success"><i class="bi bi-check-lg"></i> 应用</button>
       <button class="btn btn-link" id="openServerFolderButton">打开文件夹</button>
     </div>
